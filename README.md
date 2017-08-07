@@ -17,7 +17,7 @@ There's a lot of software requirements so I've done my best to document them bel
 * [object_tracker](https://github.com/LitterBot2017/object_track)
 * [navigation](https://github.com/LitterBot2017/melle_refactored)
 
-### Repos that I'm not sure are still dependencies, but wouldn't hurt to also include
+#### Repos that I'm not sure are still dependencies, but wouldn't hurt to also include
 * [arduino_pc](https://github.com/LitterBot2017/arduino_pc)
 * [obstacle_avoidance](https://github.com/LitterBot2017/MellEObstacle)
 * [state](https://github.com/LitterBot2017/state)
