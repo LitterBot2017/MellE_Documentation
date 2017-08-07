@@ -17,6 +17,11 @@ There's a lot of software requirements so I've done my best to document them bel
 * [object_tracker](https://github.com/LitterBot2017/object_track)
 * [navigation](https://github.com/LitterBot2017/melle_refactored)
 
+### Repos that I'm not sure are still dependencies, but wouldn't hurt to also include
+* [arduino_pc](https://need_to_create_repo)
+* [obstacle_avoidance](https://github.com/LitterBot2017/MellEObstacle)
+* [state](https://need_to_create_repo)
+
 ### Required for Arduino
 [MellE_Arduino_Refactored](https://github.com/LitterBot2017/MellE_Arduino_Refactored)
 
@@ -30,5 +35,5 @@ To install `sudo apt-get install ros-indigo-{package-name}`
 
 ### Repos for Our Custom Cloud Interface
 * Android App - [MellEAndroid](https://github.com/LitterBot2017/MellEAndroid)
-* Heroku Server Code [MellEBackend](https://github.com/LitterBot2017/MellEBackend)
-* ROS Client Node - [heartbeat](need to create repo)
+* Heroku Server Code - [MellEBackend](https://github.com/LitterBot2017/MellEBackend)
+* ROS Client Node - [heartbeat](https://need_to_create_repo)
