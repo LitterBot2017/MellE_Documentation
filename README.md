@@ -18,9 +18,9 @@ There's a lot of software requirements so I've done my best to document them bel
 * [navigation](https://github.com/LitterBot2017/melle_refactored)
 
 ### Repos that I'm not sure are still dependencies, but wouldn't hurt to also include
-* [arduino_pc](https://need_to_create_repo)
+* [arduino_pc](https://github.com/LitterBot2017/arduino_pc)
 * [obstacle_avoidance](https://github.com/LitterBot2017/MellEObstacle)
-* [state](https://need_to_create_repo)
+* [state](https://github.com/LitterBot2017/state)
 
 ### Required for Arduino
 [MellE_Arduino_Refactored](https://github.com/LitterBot2017/MellE_Arduino_Refactored)
@@ -41,17 +41,14 @@ In `cpr_mover.cpp`
 
 In `kinematics.cpp`
 
-`       jointMinMax[0][0] = -165.0;             jointMinMax[0][1] = 165.0;
-`
-`       jointMinMax[1][0] = -165.0;             jointMinMax[1][1] = 165.0;
-`       
-`       jointMinMax[2][0] = -165.0;             jointMinMax[2][1] = 165.0;
-`       
-`       jointMinMax[3][0] = -165.0;             jointMinMax[3][1] = 165.0;
-`
+`jointMinMax[0][0] = -165.0;             jointMinMax[0][1] = 165.0;
+jointMinMax[1][0] = -165.0;             jointMinMax[1][1] = 165.0;
+jointMinMax[2][0] = -165.0;             jointMinMax[2][1] = 165.0;
+jointMinMax[3][0] = -165.0;             jointMinMax[3][1] = 165.0;`
+
 The internal joint limits are too limiting
 
 ### Repos for Our Custom Cloud Interface
 * Android App - [MellEAndroid](https://github.com/LitterBot2017/MellEAndroid)
 * Heroku Server Code - [MellEBackend](https://github.com/LitterBot2017/MellEBackend)
-* ROS Client Node - [heartbeat](https://need_to_create_repo)
+* ROS Client Node - [heartbeat](https://github.com/LitterBot2017/heartbeat)
