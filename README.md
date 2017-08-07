@@ -33,7 +33,23 @@ To install `sudo apt-get install ros-indigo-{package-name}`
 ### CPR Mover4 Arm Software
 [Documentation](https://github.com/CPR-Robots/cpr_mover/blob/master/doc/CPRMoverROSDoc.pdf)
 
+We modified the `cpr_mover.cpp` and `kinematics.cpp` and added the following changes.
 
+In `cpr_mover.cpp`
+
+`ovrPercent = 100.0;`
+
+In `kinematics.cpp`
+
+`       jointMinMax[0][0] = -165.0;             jointMinMax[0][1] = 165.0;
+`
+`       jointMinMax[1][0] = -165.0;             jointMinMax[1][1] = 165.0;
+`       
+`       jointMinMax[2][0] = -165.0;             jointMinMax[2][1] = 165.0;
+`       
+`       jointMinMax[3][0] = -165.0;             jointMinMax[3][1] = 165.0;
+`
+The internal joint limits are too limiting
 
 ### Repos for Our Custom Cloud Interface
 * Android App - [MellEAndroid](https://github.com/LitterBot2017/MellEAndroid)
