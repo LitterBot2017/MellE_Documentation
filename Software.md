@@ -21,6 +21,7 @@ There's a lot of software requirements so I've done my best to document them bel
 
 ### Required General ROS Packages
 To install `sudo apt-get install ros-indigo-{package-name}`
+* ros-indigo-hokuyo-node
 * ros-indigo-rosserial-*
 * ros-indigo-joy
 
