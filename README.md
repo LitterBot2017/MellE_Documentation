@@ -4,3 +4,5 @@ This repository attempts to documents the codebase and some of the hardware requ
 ## [Hardware Requirements](https://github.com/LitterBot2017/MellE_Documentation/blob/master/Hardware.md) 
 ## [Software Requirements](https://github.com/LitterBot2017/MellE_Documentation/blob/master/Software.md)
 ## [Operation Guide](https://github.com/LitterBot2017/MellE_Documentation/blob/master/Operation.md)
+
+## [CustomPackageSummaries](https://github.com/LitterBot2017/MellE_Documentation/blob/master/CustomPackageSummaries.md)
